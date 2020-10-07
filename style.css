@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  width: 40%;
+  padding: 2em;
+  background-color: rgb(248, 233, 210);
+}
+p {
+  display: flex;
+  column-gap: 2%;
+
+}
+label {
+  flex-basis: 15%;
+  /* text-align: right; */
+}
+input {
+  flex-basis: 60%;
+  padding: 3px 0;
+}
+.required {
+  color: #f00;
+}
+#btn {
+  width: 90%;
+  justify-content: center;
+}
+#btn input{
+  flex-basis: 130px;
+  padding: 3px;
+}
